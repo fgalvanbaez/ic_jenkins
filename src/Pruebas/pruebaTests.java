@@ -15,7 +15,7 @@ public class pruebaTests {
 	}
 
 	@Before
-	public void setUp() throws Exception {
+	public void setUp() throws Exception { 
 	}
 
 	@After
