@@ -12,9 +12,9 @@ import java.util.Map.Entry;
 import ull.etsii.modelado.clasificador.herramientas.QSort;
 
 /**
- * Clase que implementa el método knn para la clasificación de muestras. Utiliza
+ * Clase que implementa el mï¿½todo knn para la clasificaciï¿½n de muestras. Utiliza
  * un fichero csv el cual representa su base de conocimiento.
- * @author José Oliver Martínez Novo
+ * @author Josï¿½ Oliver Martï¿½nez Novo
  */
 public class Clasificador 
 {
@@ -30,11 +30,11 @@ public class Clasificador
 	private HashMap<String, Double> m_Resultados;
 			
 	/**
-	 * Contructor que recibe un array de argumentos y tomará el último como valor de clasificación.
-	 * @param cabeceras (String[]) Array de parámetros que representan los datos de cabecera de las muestras.
-	 * @param muestras (String[]) Array de parámetros que representan las muestras.
-	 * @throws NumberFormatException En caso de que no se haya podido convertir algún
-	 * valor de la muestra en formato decimal, o que la columna de clasificación no es la misma en todas las muestras.
+	 * Contructor que recibe un array de argumentos y tomarï¿½ el ï¿½ltimo como valor de clasificaciï¿½n.
+	 * @param cabeceras (String[]) Array de parï¿½metros que representan los datos de cabecera de las muestras.
+	 * @param muestras (String[]) Array de parï¿½metros que representan las muestras.
+	 * @throws NumberFormatException En caso de que no se haya podido convertir algï¿½n
+	 * valor de la muestra en formato decimal, o que la columna de clasificaciï¿½n no es la misma en todas las muestras.
 	 * @throws FileNotFoundException En caso de que fileName fichero sea vacio o null.
 	 * @throws IOException En caso de que se produzca un error al abrir o leer el archivo.
 	 */
@@ -64,18 +64,18 @@ public class Clasificador
 	}
 	
 	/**
-	 * @author Oliver Martínez Novo
-	 * Enumeración para definir el tipo de procesado de datos
-	 * 0 = NORMALIZACIÓN, 1 = ESTANDARIZACIÓN
+	 * @author Oliver Martï¿½nez Novo
+	 * Enumeraciï¿½n para definir el tipo de procesado de datos
+	 * 0 = NORMALIZACIï¿½N, 1 = ESTANDARIZACIï¿½N
 	 */
 	public enum TipoProcesado
 	{
-		NORMALIZACIÓN, ESTANDARIZACIÓN
+		NORMALIZACIÃ“N, ESTANDARIZACIÃ“N
 	}
 	
 	/**
-	 * @author Oliver Martínez Novo
-	 * Enumración para definir el peso de los atributos.
+	 * @author Oliver Martï¿½nez Novo
+	 * Enumraciï¿½n para definir el peso de los atributos.
 	 * 0 = ESTATICO, 1 = DINAMICO
 	 */
 	public enum TipoPesadoAtributos
@@ -85,8 +85,8 @@ public class Clasificador
 	
 	/**
 	 * 
-	 * @author Oliver Martínez Novo
-	 * Enumeración para definir el metodo de clasificación
+	 * @author Oliver Martï¿½nez Novo
+	 * Enumeraciï¿½n para definir el metodo de clasificaciï¿½n
 	 * 0 = DEFECTO, 1 = CERCANIA, 2 = VOTO_FIJO
 	 */
 	public enum MetodoClasificacion
@@ -96,8 +96,8 @@ public class Clasificador
 	
 	/**
 	 * 
-	 * @author Oliver Martínez Novo
-	 * Enumeración para definir el tipo de distancia
+	 * @author Oliver Martï¿½nez Novo
+	 * Enumeraciï¿½n para definir el tipo de distancia
 	 * 0 = EUCLIDEA, 1 = MANHATTAN, 2 = CHEBYCHEF
 	 */
 	public enum TipoDistancia
@@ -124,7 +124,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Establece el número de vecinos.
+	 * Establece el nï¿½mero de vecinos.
 	 * @param m_Vecinos the m_Vecinos to set
 	 */
 	public void setVecinos(int m_Vecinos) 
@@ -133,7 +133,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Obtiene el número de vecinos.
+	 * Obtiene el nï¿½mero de vecinos.
 	 * @return the m_Vecinos
 	 */
 	public int getVecinos() 
@@ -142,7 +142,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Establece el método de clasificación: 0 = por defecto, 1 = cercanía, 2 = voto fijo.
+	 * Establece el mï¿½todo de clasificaciï¿½n: 0 = por defecto, 1 = cercanï¿½a, 2 = voto fijo.
 	 * @param metodoClasificacion the m_MetodoClasificacion to set
 	 */
 	public void setMetodoClasificacion(MetodoClasificacion metodoClasificacion) 
@@ -151,7 +151,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Obtiene el método de clasificación: 0 = por defecto, 1 = cercanía, 2 = voto fijo.
+	 * Obtiene el mï¿½todo de clasificaciï¿½n: 0 = por defecto, 1 = cercanï¿½a, 2 = voto fijo.
 	 * @return the m_MetodoClasificacion
 	 */
 	public MetodoClasificacion getMetodoClasificacion() 
@@ -160,7 +160,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Establece el tipo de procesado de datos: 0 = Normalización, 1 = Estandarización.
+	 * Establece el tipo de procesado de datos: 0 = Normalizaciï¿½n, 1 = Estandarizaciï¿½n.
 	 * @param m_TipoProcesado the m_TipoProcesado to set
 	 */
 	public void setTipoProcesado(TipoProcesado tipoProcesado) 
@@ -169,7 +169,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Obtiene el tipo de procesado de datos: 0 = Normalización, 1 = Estandarización.
+	 * Obtiene el tipo de procesado de datos: 0 = Normalizaciï¿½n, 1 = Estandarizaciï¿½n.
 	 * @return the m_TipoProcesado
 	 */
 	public TipoProcesado getTipoProcesado() 
@@ -237,8 +237,8 @@ public class Clasificador
 	
 	/**
 	 * Establece los valores del HashMap que representan los resultados obtenidos en 
-	 * el proceso de lectura del fichero de muestras y clasificación.
-	 * @param HashMap<String, Integer> Resultados del proceso de clasificación
+	 * el proceso de lectura del fichero de muestras y clasificaciï¿½n.
+	 * @param HashMap<String, Integer> Resultados del proceso de clasificaciï¿½n
 	 */
 	public void setResultados(HashMap<String, Double> resultados) 
 	{
@@ -247,8 +247,8 @@ public class Clasificador
 	
 	/**
 	 * Obtiene los valores del HashMap que representan los resultados obtenidos en 
-	 * el proceso de lectura del fichero de muestras y clasificación.
-	 * @return HashMap<String, Double> Resultados del proceso de clasificación
+	 * el proceso de lectura del fichero de muestras y clasificaciï¿½n.
+	 * @return HashMap<String, Double> Resultados del proceso de clasificaciï¿½n
 	 */
 	public HashMap<String, Double> getResultados() 
 	{
@@ -276,10 +276,10 @@ public class Clasificador
 	}
 		
 	/**
-	 * Normaliza la columna especificada según los nuevos valores pasados como parámetros.
+	 * Normaliza la columna especificada segï¿½n los nuevos valores pasados como parï¿½metros.
 	 * @param col int Valor de base cero que representa el indice de la columna a normalizar.
-	 * @param minValue double Valor mínimo que tomará los atributos de la columna especificada.
-	 * @param maxValue double Valor máximo que tomarán los atributos de la columna especificada.
+	 * @param minValue double Valor mï¿½nimo que tomarï¿½ los atributos de la columna especificada.
+	 * @param maxValue double Valor mï¿½ximo que tomarï¿½n los atributos de la columna especificada.
 	 */
 	/*
 	public void normalizarColumna(int col, double minValue, double maxValue)
@@ -296,10 +296,10 @@ public class Clasificador
 	*/
 	
 	/**
-	 * Estandariza la columna especificada según los nuevos valores pasados como parámetros.
+	 * Estandariza la columna especificada segï¿½n los nuevos valores pasados como parï¿½metros.
 	 * @param col int Valor de base cero que representa el indice de la columna a estandarizar.
 	 * @param media Doble valor que representa la media
-	 * @param desviacion Double valor que representa la desviación típica.
+	 * @param desviacion Double valor que representa la desviaciï¿½n tï¿½pica.
 	 */
 	/*
 	public void estandarizarColumna(int col, Double media, Double desviacion)
@@ -315,9 +315,9 @@ public class Clasificador
 	}
 	*/
 	/**
-	 * Crea un nuevo conjunto de pruebas a partir de los números de orden de las muestras.
+	 * Crea un nuevo conjunto de pruebas a partir de los nï¿½meros de orden de las muestras.
 	 * @param valores int[] Array de enteros, de base 1, que representan
-	 * los números de orden de lista de muestras a seleccionar para el conjunto de pruebas.
+	 * los nï¿½meros de orden de lista de muestras a seleccionar para el conjunto de pruebas.
 	 * @return Boolean True si se ha podido crear el conjunto de entrenamiento satisfactoriamente, 
 	 * false en caso contrario.
 	 */
@@ -345,10 +345,10 @@ public class Clasificador
 	}
 	
 	/**
-	 * Función que obtiene la clasificación de una muestra.
+	 * Funciï¿½n que obtiene la clasificaciï¿½n de una muestra.
 	 * @param (Muestra) muestra Objeto de la clase Muestra que se desea clasificar. 
-	 * @return (String) Cadena de texto que contiene la clasidicación de la muestra 
-	 * en función del archivo de muestras que se haya cargado.
+	 * @return (String) Cadena de texto que contiene la clasidicaciï¿½n de la muestra 
+	 * en funciï¿½n del archivo de muestras que se haya cargado.
 	 */
 	public String knn(Muestra muestra)
 	{
@@ -381,7 +381,7 @@ public class Clasificador
 		//this.setMuestras(new QSort(this.getMuestras()).ordenar());
 		
 		
-		// Se establecen los pesos de las muestras según el tipo de métrica.
+		// Se establecen los pesos de las muestras segï¿½n el tipo de mï¿½trica.
 		//setPesosMuestras();
 		
 		
@@ -478,7 +478,7 @@ public class Clasificador
 		
 		
 		
-		// Se comprueban los resultados y se decide la clasificación.
+		// Se comprueban los resultados y se decide la clasificaciï¿½n.
 		Iterator<Entry<String, Double>> it = m_Resultados.entrySet().iterator();
 		muestras = new Muestra[m_Resultados.size()];
 		while(it.hasNext())
@@ -530,7 +530,7 @@ public class Clasificador
 		}
 		/*
 		System.out.println("Real...: " + muestra.getClasificacion() + 
-				" Predicción...: " + result + " - " + flag);
+				" Predicciï¿½n...: " + result + " - " + flag);
 		*/
 		/*
 		System.out.println(result + " - " + flag);
@@ -657,10 +657,10 @@ public class Clasificador
 	}
 	
 	/**
-	 * Asigna pesos a los atributos en función del tipo de procesado de datos.
-	 * Si el procesado es Normalización, asignará peso 1 a todos los atributos.
-	 * Si el procesado es Estandarización, asignará peso equivalente al cálculo
-	 * de la siguiente expresión: (1D - this.getDesviacionTipica)
+	 * Asigna pesos a los atributos en funciï¿½n del tipo de procesado de datos.
+	 * Si el procesado es Normalizaciï¿½n, asignarï¿½ peso 1 a todos los atributos.
+	 * Si el procesado es Estandarizaciï¿½n, asignarï¿½ peso equivalente al cï¿½lculo
+	 * de la siguiente expresiï¿½n: (1D - this.getDesviacionTipica)
 	 */
 	private void setPesosAtributos()
 	{
@@ -687,7 +687,7 @@ public class Clasificador
 	}
 	
 	/**
-	 * Asigna los pesos a las muestras del DataSet segun el tipo de clasificación
+	 * Asigna los pesos a las muestras del DataSet segun el tipo de clasificaciï¿½n
 	 */
 	private void setPesosMuestras()
 	{
@@ -744,7 +744,7 @@ public class Clasificador
 	}
 		
 	/**
-	 * Comprueba que todos los valores de las muestras sean valores numéricos, 
+	 * Comprueba que todos los valores de las muestras sean valores numï¿½ricos, 
 	 * que tengan la misma cantidad de datos y que la columna identificadora de 
 	 * tipo sea la misma en todas las muestras.
 	 * @param muestras (String[]) Array de cadenas que representan las muestras.
@@ -877,7 +877,7 @@ public class Clasificador
 			}
 		}
 		
-		// Se calcula la desviación típica
+		// Se calcula la desviaciï¿½n tï¿½pica
 		for(int r = 0; r < this.m_Cabeceras.length - 1; r++)
 		{
 			sumValues = 0D;
@@ -923,11 +923,11 @@ public class Clasificador
 		{
 			for(Atributo a : m.getAtributos())
 			{
-				if(this.getTipoProcesado().equals(TipoProcesado.NORMALIZACIÓN))
+				if(this.getTipoProcesado().equals(TipoProcesado.NORMALIZACIÃ“N))
 				{
 					//a.normalizar();
 				}
-				else if(this.getTipoProcesado().equals(TipoProcesado.ESTANDARIZACIÓN))
+				else if(this.getTipoProcesado().equals(TipoProcesado.ESTANDARIZACIÃ“N))
 				{
 					//a.estandarizar();
 				}
@@ -937,8 +937,8 @@ public class Clasificador
 	}
 	
 	/**
-	 * Elimina las muestras que quedaron con valor null después de la ejecución
-	 * del proceso de creación del conjunto de entrenamiento.
+	 * Elimina las muestras que quedaron con valor null despuï¿½s de la ejecuciï¿½n
+	 * del proceso de creaciï¿½n del conjunto de entrenamiento.
 	 * @param cantidad int Valor que indica la cantidad de muestras a eliminar.
 	 */
 	private void limpiarNulos(int cantidad)
@@ -969,14 +969,14 @@ public class Clasificador
 		String result = "";
 		result += "* Resumen del contenido del DataSet.\n";
 		result += "\t" + this.m_DataSetInfo.toString() + "\n\n";
-		result += "* Datos estadísticos obtenidos para cada atributo de las muestras.\n";
+		result += "* Datos estadï¿½sticos obtenidos para cada atributo de las muestras.\n";
 		for(int r = 0; r < m_Cabeceras.length - 1; r++)
 		{
 			result += "\t" + this.getMuestras()[0].getAtributos()[r].getTitulo() + 
 				"\tminVal: " + this.getMuestras()[0].getAtributos()[r].getMinValue() +
 				"\tmaxVal: " + this.getMuestras()[0].getAtributos()[r].getMaxValue() + 
 				"\tMedia: " +  this.getMuestras()[0].getAtributos()[r].getMedia() + 
-				"\tDesv. típica normalizada: " +  this.getMuestras()[0].getAtributos()[r].getDesviacionTipica() + "\n";
+				"\tDesv. tï¿½pica normalizada: " +  this.getMuestras()[0].getAtributos()[r].getDesviacionTipica() + "\n";
 		}
 		return result;
 	}
