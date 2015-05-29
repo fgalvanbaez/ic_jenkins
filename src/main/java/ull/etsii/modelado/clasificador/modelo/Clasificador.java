@@ -1,4 +1,4 @@
-package ull.etsii.modelado.clasificador.modelo;
+package main.java.ull.etsii.modelado.clasificador.modelo;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import ull.etsii.modelado.clasificador.herramientas.QSort;
+import main.java.ull.etsii.modelado.clasificador.herramientas.QSort;
 
 /**
  * Clase que implementa el m�todo knn para la clasificaci�n de muestras. Utiliza

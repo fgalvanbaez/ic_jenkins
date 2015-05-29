@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ull.etsii.modelado.clasificador.herramientas;
+package main.java.ull.etsii.modelado.clasificador.herramientas;
 
 import java.util.Random;
 

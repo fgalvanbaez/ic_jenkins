@@ -1,4 +1,4 @@
-package ull.etsii.modelado.clasificador.modelo;
+package main.java.ull.etsii.modelado.clasificador.modelo;
 
 public class Tipo 
 {
