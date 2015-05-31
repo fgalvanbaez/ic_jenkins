@@ -93,7 +93,7 @@ public class Muestra
 
 	/**
 	 * Establece el array de atributos que contiene la clase.
-	 * @param Atributo[] values array de atributos que se desa establecer.
+	 * @param values Atributo[] array de atributos que se desa establecer.
 	 */
 	public void setAtributos(Atributo[] values) 
 	{
@@ -125,7 +125,7 @@ public class Muestra
 	
 	/**
 	 * Establece el valor de la distancia de la muestra.
-	 * @param (Double) distancia El valor de la distancia que se desa establecer.
+	 * @param distancia (Double) El valor de la distancia que se desa establecer.
 	 */
 	public void setDistancia(Double distancia) 
 	{

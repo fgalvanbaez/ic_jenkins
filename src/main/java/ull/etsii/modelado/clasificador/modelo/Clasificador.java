@@ -32,8 +32,8 @@ public class Clasificador
 			
 	/**
 	 * Contructor que recibe un array de argumentos y tomar� el �ltimo como valor de clasificaci�n.
-	 * @param cabeceras (String[]) Array de par�metros que representan los datos de cabecera de las muestras.
-	 * @param muestras (String[]) Array de par�metros que representan las muestras.
+	 * @param fileName (String[]) Array de par�metros que representan los datos de cabecera de las muestras.
+	 * @param tipo (String[]) Array de par�metros que representan las muestras.
 	 * @throws NumberFormatException En caso de que no se haya podido convertir alg�n
 	 * valor de la muestra en formato decimal, o que la columna de clasificaci�n no es la misma en todas las muestras.
 	 * @throws FileNotFoundException En caso de que fileName fichero sea vacio o null.
@@ -195,7 +195,7 @@ public class Clasificador
 	}
 
 	/**
-	 * @param tipodistancia (TipoDistancia) m_Distancia the m_Distancia to set
+	 * @param tipoDistancia (TipoDistancia) m_Distancia the m_Distancia to set
 	 */
 	public void setTipoDistancia(TipoDistancia tipoDistancia) 
 	{
@@ -238,8 +238,8 @@ public class Clasificador
 	
 	/**
 	 * Establece los valores del HashMap que representan los resultados obtenidos en 
-	 * el proceso de lectura del fichero de muestras y clasificaci�n.
-	 * @param resultados (HashMap<String, Integer>) Resultados del proceso de clasificaci�n
+	 * el proceso de lectura del fichero de muestras y clasificación.
+	 * @param resultados (HashMap) Resultados del proceso de clasificación
 	 */
 	public void setResultados(HashMap<String, Double> resultados) 
 	{
@@ -248,8 +248,8 @@ public class Clasificador
 	
 	/**
 	 * Obtiene los valores del HashMap que representan los resultados obtenidos en 
-	 * el proceso de lectura del fichero de muestras y clasificaci�n.
-	 * @return m_Resultados HashMap<String, Double> Resultados del proceso de clasificaci�n
+	 * el proceso de lectura del fichero de muestras y clasificación.
+	 * @return m_Resultados HashMap Resultados del proceso de clasificación
 	 */
 	public HashMap<String, Double> getResultados() 
 	{
@@ -346,10 +346,10 @@ public class Clasificador
 	}
 	
 	/**
-	 * Funci�n que obtiene la clasificaci�n de una muestra.
-	 * @param (Muestra) muestra Objeto de la clase Muestra que se desea clasificar. 
-	 * @return (String) Cadena de texto que contiene la clasidicaci�n de la muestra 
-	 * en funci�n del archivo de muestras que se haya cargado.
+	 * Función que obtiene la clasificación de una muestra.
+	 * @param muestra (Muestra) Objeto de la clase Muestra que se desea clasificar. 
+	 * @return (String) Cadena de texto que contiene la clasidicación de la muestra 
+	 * en función del archivo de muestras que se haya cargado.
 	 */
 	public String knn(Muestra muestra)
 	{
