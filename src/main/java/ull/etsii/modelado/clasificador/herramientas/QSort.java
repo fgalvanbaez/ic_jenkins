@@ -41,6 +41,7 @@ public class QSort
 	
 	/**
 	 * @see void quickSort(int ini, int fin)
+	 * @return this.getElementos()
 	 */
 	public Muestra[] ordenar()
 	{
@@ -49,13 +50,13 @@ public class QSort
 	}
 	
 	/**
-	 * Algoritmo de ordenaci�n QuickSort basado en la ordenaci�n recursiva
+	 * Algoritmo de ordenación QuickSort basado en la ordenación recursiva
 	 * haciendo uso de un pivote. El Array se divide en dos usando dicho
-	 * pivote y se intercambian los valores de una a la otra seg�n 
+	 * pivote y se intercambian los valores de una a la otra según 
 	 * sean estos mayores o menores que el pivote. Primero se ordenan los listas
-	 * valores menores al pivote y despu�s los valores mayores.
+	 * valores menores al pivote y después los valores mayores.
 	 * @param v (Muestra[]) Array de muestras que se desea ordenar.
-	 * @param ini (int) Posici�n de inicio del vector. 
+	 * @param ini (int) Posición de inicio del vector. 
 	 * @param fin (int) Posicion final del vector.
 	 */
 	private void quickSort(int ini, int fin)

@@ -58,8 +58,8 @@ public class Atributo
 	}
 
 	/**
-	 * Establece el valor m�nimo que toma el atributo en el conjunto de muestras.
-	 * @param (Double) minValue  Representa el valor m�nimo a establecer.
+	 * Establece el valor mínimo que toma el atributo en el conjunto de muestras.
+	 * @param (Double) minValue  Representa el valor mínimo a establecer.
 	 */
 	public void setMinValue(Double minValue) 
 	{
@@ -76,8 +76,8 @@ public class Atributo
 	}
 
 	/**
-	 * Establece el valor m�ximo que toma el atributo en el conjunto de muestras.
-	 * @param (Double) maxValue Representa el valor m�ximo a establecer.
+	 * Establece el valor máximo que toma el atributo en el conjunto de muestras.
+	 * @param (Double) maxValue Representa el valor máximo a establecer.
 	 */
 	public void setMaxValue(Double maxValue)
 	{

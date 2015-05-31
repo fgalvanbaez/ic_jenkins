@@ -27,7 +27,7 @@ public class MatrizConfusion
 	/**
 	 * Constructor de la clase
 	 * @param muestras Muestra[]
-	 * @param dataSetInfo HashMap<String, Integer>
+	 * @param dataSetInfo HashMap
 	 */
 	public MatrizConfusion(Muestra[] muestras, Map<String, Integer> dataSetInfo)
 	{
@@ -79,7 +79,7 @@ public class MatrizConfusion
 	
 	/**
 	 * Obtiene el array de leyendas de la matriz
-	 * @return
+	 * @return m_Leyendas;
 	 */
 	public String[] getLeyendas()
 	{
