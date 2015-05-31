@@ -67,8 +67,8 @@ public class Atributo
 	}
 
 	/**
-	 * Obtiene el valor m�nimo que toma el atributo en el conjunto de muestras.
-	 * @return (Double) Valor m�nimo del atributo
+	 * Obtiene el valor mínimo que toma el atributo en el conjunto de muestras.
+	 * @return (Double) Valor mínimo del atributo
 	 */
 	public Double getMinValue() 
 	{
@@ -77,7 +77,7 @@ public class Atributo
 
 	/**
 	 * Establece el valor máximo que toma el atributo en el conjunto de muestras.
-	 * @param (Double) maxValue Representa el valor máximo a establecer.
+	 * @param maxValue (Double) Representa el valor máximo a establecer.
 	 */
 	public void setMaxValue(Double maxValue)
 	{

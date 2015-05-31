@@ -86,8 +86,8 @@ public class Clasificador
 	
 	/**
 	 * 
-	 * @author Oliver Mart�nez Novo
-	 * Enumeraci�n para definir el metodo de clasificaci�n
+	 * @author Oliver Martínez Novo
+	 * Enumeración para definir el metodo de clasificación
 	 * 0 = DEFECTO, 1 = CERCANIA, 2 = VOTO_FIJO
 	 */
 	public enum MetodoClasificacion
@@ -97,8 +97,8 @@ public class Clasificador
 	
 	/**
 	 * 
-	 * @author Oliver Mart�nez Novo
-	 * Enumeraci�n para definir el tipo de distancia
+	 * @author Oliver Martínez Novo
+	 * Enumeración para definir el tipo de distancia
 	 * 0 = EUCLIDEA, 1 = MANHATTAN, 2 = CHEBYCHEF
 	 */
 	public enum TipoDistancia
@@ -108,7 +108,7 @@ public class Clasificador
 		
 	/**
 	 * Establece el array de objetos de la clase Muestra que contiene la clase.
-	 * @param Muestra[] Array de objetos de la clase Muestra que se desea establecer.
+	 * @param muestras (Muestra[]) Array de objetos de la clase Muestra que se desea establecer.
 	 */
 	public void setMuestras(Muestra[] muestras) 
 	{
@@ -125,7 +125,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Establece el n�mero de vecinos.
+	 * Establece el número de vecinos.
 	 * @param m_Vecinos the m_Vecinos to set
 	 */
 	public void setVecinos(int m_Vecinos) 
@@ -152,7 +152,7 @@ public class Clasificador
 	}
 
 	/**
-	 * Obtiene el m�todo de clasificaci�n: 0 = por defecto, 1 = cercan�a, 2 = voto fijo.
+	 * Obtiene el método de clasificación: 0 = por defecto, 1 = cercanía, 2 = voto fijo.
 	 * @return the m_MetodoClasificacion
 	 */
 	public MetodoClasificacion getMetodoClasificacion() 
@@ -162,7 +162,7 @@ public class Clasificador
 
 	/**
 	 * Establece el tipo de procesado de datos: 0 = Normalizaci�n, 1 = Estandarizaci�n.
-	 * @param m_TipoProcesado the m_TipoProcesado to set
+	 * @param tipoProcesado (TipoProcesado) the m_TipoProcesado to set
 	 */
 	public void setTipoProcesado(TipoProcesado tipoProcesado) 
 	{
@@ -195,7 +195,7 @@ public class Clasificador
 	}
 
 	/**
-	 * @param m_Distancia the m_Distancia to set
+	 * @param tipodistancia (TipoDistancia) m_Distancia the m_Distancia to set
 	 */
 	public void setTipoDistancia(TipoDistancia tipoDistancia) 
 	{
@@ -239,7 +239,7 @@ public class Clasificador
 	/**
 	 * Establece los valores del HashMap que representan los resultados obtenidos en 
 	 * el proceso de lectura del fichero de muestras y clasificaci�n.
-	 * @param HashMap<String, Integer> Resultados del proceso de clasificaci�n
+	 * @param resultados (HashMap<String, Integer>) Resultados del proceso de clasificaci�n
 	 */
 	public void setResultados(HashMap<String, Double> resultados) 
 	{
@@ -249,7 +249,7 @@ public class Clasificador
 	/**
 	 * Obtiene los valores del HashMap que representan los resultados obtenidos en 
 	 * el proceso de lectura del fichero de muestras y clasificaci�n.
-	 * @return HashMap<String, Double> Resultados del proceso de clasificaci�n
+	 * @return m_Resultados HashMap<String, Double> Resultados del proceso de clasificaci�n
 	 */
 	public HashMap<String, Double> getResultados() 
 	{
@@ -259,7 +259,7 @@ public class Clasificador
 	/**
 	 * Establece los valores de las cabeceras que representan los nombres
 	 * de los atributos que son necesarios para clasificar las muestras. 
-	 * @param String[] cabeceras Array de cadenas de texto que representan las cabeceras
+	 * @param cabeceras (String[]) cabeceras Array de cadenas de texto que representan las cabeceras
 	 */
 	public void setCabeceras(String[] cabeceras) 
 	{
