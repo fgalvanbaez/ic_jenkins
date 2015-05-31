@@ -161,8 +161,8 @@ public class Muestra
 
 	/**
 	 * Obtiene un valor que indica si la distancia de instancia actual es mayor que la distancia de obj.
-	 * @param (Muestra) obj Instancia de la clase Muestra que se desea comparar.
-	 * @return (Boolean) True si la distancia de la instancia actual es mayor que 
+	 * @param obj (Muestra) Instancia de la clase Muestra que se desea comparar.
+	 * @return True (Boolean) si la distancia de la instancia actual es mayor que 
 	 * la distancia de obj.
 	 */
 	public Boolean isMayor(Muestra obj)
@@ -172,8 +172,8 @@ public class Muestra
 	
 	/**
 	 * Obtiene un valor que indica si la distancia de instancia actual es menor que la distancia de obj.
-	 * @param (Muestra) obj Instancia de la clase Muestra que se desea comparar.
-	 * @return (Boolean) True si la distancia de la instancia actual es menor que 
+	 * @param obj (Muestra) Instancia de la clase Muestra que se desea comparar.
+	 * @return True (Boolean) si la distancia de la instancia actual es menor que 
 	 * la distancia de obj.
 	 */
 	public Boolean isMenor(Muestra obj)
@@ -183,8 +183,8 @@ public class Muestra
 	
 	/**
 	 * Obtiene un valor que indica si la distancia de instancia actual es menor o igual que obj.
-	 * @param (Muestra) obj Instancia de la clase Muestra que se desea comparar.
-	 * @return (Boolean) True si la distancia de la instancia actual es menor o igual que 
+	 * @param obj (Muestra) Instancia de la clase Muestra que se desea comparar.
+	 * @return True (Boolean) si la distancia de la instancia actual es menor o igual que 
 	 * la distancia de obj.
 	 */
 	public Boolean isMenorOrIgual(Muestra obj)

@@ -59,7 +59,7 @@ public class Atributo
 
 	/**
 	 * Establece el valor mínimo que toma el atributo en el conjunto de muestras.
-	 * @param (Double) minValue  Representa el valor mínimo a establecer.
+	 * @param minValue (Double) Representa el valor mínimo a establecer.
 	 */
 	public void setMinValue(Double minValue) 
 	{
