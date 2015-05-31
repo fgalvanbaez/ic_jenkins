@@ -1,13 +1,13 @@
 /**
  * 
  */
-package main.java.ull.etsii.modelado.clasificador.herramientas;
+package ull.etsii.modelado.clasificador.herramientas;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import main.java.ull.etsii.modelado.clasificador.modelo.Muestra;
+import ull.etsii.modelado.clasificador.modelo.Muestra;
 
 
 /**

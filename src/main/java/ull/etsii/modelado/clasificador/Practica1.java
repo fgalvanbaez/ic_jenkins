@@ -1,18 +1,17 @@
-package main.java.ull.etsii.modelado.clasificador;
+package ull.etsii.modelado.clasificador;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import main.java.ull.etsii.modelado.clasificador.modelo.Clasificador;
-import main.java.ull.etsii.modelado.clasificador.modelo.Clasificador.MetodoClasificacion;
-import main.java.ull.etsii.modelado.clasificador.modelo.Clasificador.TipoDistancia;
-import main.java.ull.etsii.modelado.clasificador.modelo.Clasificador.TipoPesadoAtributos;
-import main.java.ull.etsii.modelado.clasificador.modelo.Clasificador.TipoProcesado;
-import main.java.ull.etsii.modelado.clasificador.herramientas.Aleatorio;
-import main.java.ull.etsii.modelado.clasificador.herramientas.MatrizConfusion;
-import main.java.ull.etsii.modelado.clasificador.modelo.Atributo;
-import main.java.ull.etsii.modelado.clasificador.modelo.*;
+import ull.etsii.modelado.clasificador.modelo.Clasificador;
+import ull.etsii.modelado.clasificador.modelo.Clasificador.MetodoClasificacion;
+import ull.etsii.modelado.clasificador.modelo.Clasificador.TipoDistancia;
+import ull.etsii.modelado.clasificador.modelo.Clasificador.TipoPesadoAtributos;
+import ull.etsii.modelado.clasificador.modelo.Clasificador.TipoProcesado;
+import ull.etsii.modelado.clasificador.herramientas.Aleatorio;
+import ull.etsii.modelado.clasificador.herramientas.MatrizConfusion;
+import ull.etsii.modelado.clasificador.modelo.*;
 
 import java.util.*;
 

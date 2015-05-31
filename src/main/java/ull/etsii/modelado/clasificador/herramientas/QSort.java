@@ -1,6 +1,6 @@
-package main.java.ull.etsii.modelado.clasificador.herramientas;
+package ull.etsii.modelado.clasificador.herramientas;
 
-import main.java.ull.etsii.modelado.clasificador.modelo.Muestra;
+import ull.etsii.modelado.clasificador.modelo.Muestra;
 
 /**
  * Clase que implenta el algoritmo de ordenaci�n QuickSort dise�ada

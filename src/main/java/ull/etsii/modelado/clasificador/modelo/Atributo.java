@@ -1,4 +1,4 @@
-package main.java.ull.etsii.modelado.clasificador.modelo;
+package ull.etsii.modelado.clasificador.modelo;
 
 /**
  * Clase utilizada para almacenar todos los atributos de una muestra.
