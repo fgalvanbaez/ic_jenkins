@@ -11,6 +11,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /target/
-/ull/
-/main/
+/.classpath
+/.gitignore
+/.project
 /.settings/
+/LICENSE
+/README.md
+/doc/
+/main/
+/pom.xml
+/sonar-project.properties
+/test/
